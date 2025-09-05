@@ -1,9 +1,14 @@
 import numpy as np
 import pandas as pd
 import subprocess
-import shlex
 import os
-from io import StringIO
+
+"""
+Create Clebsch Gordan coefficients
+--------------------------------------------------
+This script is designed to calculate Clebsch-Gordan coefficients needed in the calculations of the IBM. 
+The code calls a Fortran script in SU3cgvcs to do the calculations and saves the output in the basis folder.
+"""
 
 basis_dir = "./basis/"  # Path to the CG coefficients library (list1, list2, list3 directories)
 cg_code_dir = "./Su3cgvcs/"  # path to the cgu3o3drv code, used for calculating CG coeffs if not already in library.
