@@ -1,0 +1,20 @@
+cff-version: 1.0.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Ahlgren Cederlöf"
+  given-names: "Ebba"
+  orcid: "https://orcid.org/0000-0001-7578-1241"
+- family-names: "Teng"
+  given-names: "Wei"
+- family-names: "Nazeef"
+  orcid: "https://orcid.org/0009-0009-4307-5911"
+- family-names: "Qi"
+  given-names: "Chong"
+  orcid: "https://orcid.org/0000-0002-1406-5695"
+- family-names: "Zhang"
+  given-names: "Yu"
+title: "pyIBM"
+version: 1.0.0
+doi: doi.org/10.5281/zenodo.17061419
+date-released: 2025-09-05
+url: "https://github.com/ebbace/pyIBM"
