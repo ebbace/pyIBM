@@ -127,8 +127,8 @@ def construct_Hb_odd(matrix_dir, m, Jt, cg, jp):
         sixdodd.append(row)
 
     # Export to CSV
-    v3 = sp.symbols('v3')
-    H_df = v3*pd.DataFrame(sixdodd)
+    a3 = sp.symbols('a3')
+    H_df = a3*pd.DataFrame(sixdodd)
 
     filename = matrix_dir + "h{}b.csv".format(int(Jt*2))
     os.makedirs(os.path.dirname(filename), exist_ok=True)
