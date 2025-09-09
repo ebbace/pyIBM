@@ -1,5 +1,0 @@
-3                                option
-108 6 6 4 118 2                  SU(3) irreps
-4 4
-n
-n
